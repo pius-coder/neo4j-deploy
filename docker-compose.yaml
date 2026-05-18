@@ -10,7 +10,7 @@ services:
       - neo4j_logs:/logs
       - neo4j_plugins:/plugins
     environment:
-      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD}
+      - NEO4J_AUTH=neo4j/changeme123
       - SERVICE_URL_BROWSER=http://neo4j.globalimex.online:7474
       - SERVICE_URL_BOLT=http://bolt.globalimex.online:7687
 
